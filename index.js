@@ -1,5 +1,5 @@
-var EventEmitter = require('events').EventEmitter;
-var periodic = require('periodic');
+var EventEmitter = require('juliangruber-events').EventEmitter;
+var periodic = require('juliangruber-periodic');
 var inherits = require('./lib/inherits');
 
 module.exports = Encounter;

@@ -1,34 +1,7 @@
 {
-  "name": "encounter",
+  "name": "juliangruber-encounter",
   "description": "Flexible reliable counting.",
   "version": "0.1.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/juliangruber/encounter.git"
-  },
-  "homepage": "https://github.com/juliangruber/encounter",
-  "main": "index.js",
-  "scripts": {
-    "test": "tape test/*.js"
-  },
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/6..latest",
-      "chrome/20..latest",
-      "firefox/3.6..latest",
-      "safari/5.0.5..latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6"
-    ]
-  },
-  "dependencies": {
-    "periodic": "~0.0.0"
-  },
-  "devDependencies": {
-    "tape": "~2.3.0"
-  },
   "keywords": [
     "time",
     "timer",
@@ -39,10 +12,9 @@
     "countdown",
     "count"
   ],
-  "author": {
-    "name": "Julian Gruber",
-    "email": "mail@juliangruber.com",
-    "url": "http://juliangruber.com"
+  "dependencies": {
+    "juliangruber-periodic": "git://github.com/npmcomponent/juliangruber-periodic.git",
+    "juliangruber-events": "git://github.com/npmcomponent/juliangruber-events.git"
   },
   "license": "MIT"
 }
